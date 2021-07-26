@@ -8,6 +8,11 @@
 youtubeに公開している「超入門シリーズ」のPHPソースコードとなります。
 
 
+## コードの開設
+[wikiページ](https://github.com/y-oota-joshu/php-beginner-code/wiki)にて各動画のコード解説が参照可能です。
+
+
+
 ## youtube講師 - 上州システム事務所
 [youtube](https://www.youtube.com/channel/UC2Ph_wEU8d9Qu_nXjeOhpDA)から動画をご覧ください。
 
