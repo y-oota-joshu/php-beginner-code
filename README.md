@@ -25,4 +25,4 @@ youtubeに公開している「超入門シリーズ」のPHPソースコード�
 [ツイッター](https://twitter.com/joshu_sys)にてつぶやいております。
 
 [LINEアカウント](https://lin.ee/oh5hISJ![github_logo](https://user-images.githubusercontent.com/84372249/126953726-17997119-5294-4fcd-bd48-16709a3b3b70.png)
-)お見積り依頼も可能です。
+)にてシステム開発のお見積り依頼が可能です。
