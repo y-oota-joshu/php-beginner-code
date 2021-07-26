@@ -1,8 +1,8 @@
 # youtube講師 - 上州システム事務所【PHP超入門】ソースコード
-php beginner code
 
 
-[![youtube講師 - 上州システム事務所](https://user-images.githubusercontent.com/84372249/126953905-88b7cae2-b808-4770-9327-7b3fabe68a48.png)]
+[![youtube講師 - 上州システム事務所](https://user-images.githubusercontent.com/84372249/126953905-88b7cae2-b808-4770-9327-7b3fabe68a48.png)](https://www.youtube.com/channel/UC2Ph_wEU8d9Qu_nXjeOhpDA)
+
 
 ## 概要
 youtubeに公開している「超入門シリーズ」のPHPソースコードとなります。
