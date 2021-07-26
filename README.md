@@ -8,7 +8,7 @@
 youtubeに公開している「超入門シリーズ」のPHPソースコードとなります。
 
 
-## コードの開設
+## コードの解説
 [wikiページ](https://github.com/y-oota-joshu/php-beginner-code/wiki)にて各動画のコード解説が参照可能です。
 
 
