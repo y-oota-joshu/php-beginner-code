@@ -1,6 +1,3 @@
-[Home](https://github.com/y-oota-joshu/php-beginner-code/wiki)
-
-
 # youtube講師 - 上州システム事務所【PHP超入門】ソースコード
 
 
