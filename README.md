@@ -17,6 +17,13 @@ youtubeに公開している「超入門シリーズ」のPHPソースコード�
 [youtube](https://www.youtube.com/channel/UC2Ph_wEU8d9Qu_nXjeOhpDA)から動画をご覧ください。
 
 
+| コンテンツ | 内容 | 公開日|
+|:---:|:---|:---:|
+|[動画](https://youtu.be/hlNqwX_RgoQ)・[解説](https://github.com/y-oota-joshu/php-beginner-code/tree/main/requestPost)|【PHP超入門】POSTリクエストの使い方|2021/06/04|
+|[動画](https://youtu.be/n5dgG2PnVCQ)・[解説](https://github.com/y-oota-joshu/php-beginner-code/tree/main/setupDocker)|【PHP超入門】Docker WEBの使い方|2021/05/10|
+|[動画](https://youtu.be/pkfVRbPWtKA)・[解説](https://github.com/y-oota-joshu/php-beginner-code/blob/main/requestGet/)|【PHP超入門】GETリクエストの使い方|2021/04/10|
+
+
 ## 弊所HP
 [こちらのサイト](https://joshu-sys.com/)で弊所の概要等をご覧いただけます。
 
