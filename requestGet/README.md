@@ -1,28 +1,49 @@
+[Home](https://github.com/y-oota-joshu/php-beginner-code/wiki)
+
+
 # youtube講師 - 上州システム事務所【PHP超入門】ソースコード
 
 
-[![youtube講師 - 上州システム事務所](https://user-images.githubusercontent.com/84372249/126953905-88b7cae2-b808-4770-9327-7b3fabe68a48.png)](https://www.youtube.com/channel/UC2Ph_wEU8d9Qu_nXjeOhpDA)
+![【PHP超入門】GETリクエストの使い方](https://user-images.githubusercontent.com/84372249/127012354-984541e0-c540-4fb7-a899-e7d5665ca08e.jpg)
 
 
 ## 概要
-youtubeに公開している「超入門シリーズ」のPHPソースコードとなります。
+PHPにおける「GETリクエストの使い方」の解説となります。
 
 
-## コードの解説
-[wikiページ](https://github.com/y-oota-joshu/php-beginner-code/wiki)にて各動画のコード解説が参照可能です。
+## 利用フォルダ
+[requestGet](https://github.com/y-oota-joshu/php-beginner-code/tree/main/requestGet) の階層にて動画のコード参照が可能です。
 
 
-
-## youtube講師 - 上州システム事務所
-[youtube](https://www.youtube.com/channel/UC2Ph_wEU8d9Qu_nXjeOhpDA)から動画をご覧ください。
-
-
-## 弊所HP
-[こちらのサイト](https://joshu-sys.com/)で弊所の概要等をご覧いただけます。
+## 1. GETデータ受け取りページの作成
+[index.php](https://github.com/y-oota-joshu/php-beginner-code/blob/main/requestGet/index.php) をGETデータ受け取りページとして作成します。
 
 
-## SNS
-[ツイッター](https://twitter.com/joshu_sys)にてつぶやいております。
+## 1-1. head
+「head」に「UTF-8」の文字コードを利用するという設定を記述します。
+```
+<head>
+  <meta http-equiv="content-type" charset="UTF-8" />
+</head>
+```
+## 1-2. if文
+* 「if (empty($_GET["name"]))」でGETデータ「name」が空の場合には、「取得する情報はございません」と出力されるように記述します。
+* 「else」でGETデータが空でない場合には、「〇〇さんの情報を取得します。」と出力されるように記述します。
+```
+    <?php if (empty($_GET["name"])) : ?>
+      取得する情報はございません
+    <?php else : ?>
+      <?php echo $_GET["name"]; ?> さんの情報を取得します。
+    <?php endif; ?>
 
-[LINEアカウント](https://lin.ee/oh5hISJ![github_logo](https://user-images.githubusercontent.com/84372249/126953726-17997119-5294-4fcd-bd48-16709a3b3b70.png)
-)にてシステム開発のお見積り依頼が可能です。
+    <?php
+    // 動画では、下記のように記載しています。
+    /*
+    if (empty($_GET["name"])) {
+      echo "取得する情報はございません";
+    } else {
+      echo $_GET["name"] . "さんの情報を取得します。";
+    }
+    */
+    ?>
+```
